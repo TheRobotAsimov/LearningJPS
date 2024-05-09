@@ -12,7 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World! HTML's version</h1>
-        <%="Hello World! Java's version"%>
+        <h1>Formulario</h1>
+        <form action="SVUsuario" method="POST">
+            <p><label>Nombre</label><input type="text" name="nombre"></p>
+            <p><label>Edad</label><input type="text" name="edad"></p>
+            <button type="submit">Enviar</button>
+        </form>
     </body>
 </html>
